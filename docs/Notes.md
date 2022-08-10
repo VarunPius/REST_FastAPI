@@ -16,3 +16,9 @@ When the project structure is setup, we can run it using the following:
 uvicorn src.main:app --reload
 ```
 
+# API Docs
+Swagger can be access at:
+http://localhost:8000/docs
+
+Redoc can be accessed at:
+http://localhost:8000/redoc

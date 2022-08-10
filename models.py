@@ -25,6 +25,11 @@ class User(BaseModel):
     wallet: Optional[int] = None
     active: Optional[bool] = True 
 
-    
+
+class UserUpdateRequest(BaseModel):
+    first_name: Optional[str]
+    middle_name: Optional[str] = None
+    last_name: Optional[str]
+    roles: Optional[List[Role]]
     
 
